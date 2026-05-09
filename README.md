@@ -36,11 +36,13 @@ Porosity is modelled via Darcy's law as a momentum source term in the incompress
 ### Pressure Field Comparison — Solid vs Porous
 
 ![Pressure contours solid vs porous](images/pressure.png)
+
 *Left: solid aerofoil. Right: porous aerofoil. The porous case shows a broader low-pressure footprint on the suction side and a stronger pressure patch beneath the nose, producing a larger pressure differential and higher lift.*
 
 ### Peak Lift vs Reynolds Number
 
 ![Bell-shaped CL vs Re curve](images/re_cl_bell_curve.png)
+
 *CL peaks at approximately 1.005 around Re ≈ 80,000 before declining as the boundary layer transitions. This identifies the most aerodynamically efficient operating point for this porous configuration.*
 
 ---
@@ -73,9 +75,4 @@ Standard solvers report forces by integrating pressure and shear directly on the
 
 ---
 
-## Dependencies
 
-```
-ANSYS Fluent   — CFD solver and field data export
-Python         — post-processing (NumPy, Pandas)
-```
