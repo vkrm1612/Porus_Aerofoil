@@ -3,11 +3,13 @@
 A numerical study comparing porous and solid NACA 0012 aerofoils across low-to-moderate Reynolds numbers, targeting UAV and drone applications. Inspired by how birds use controlled feather porosity to achieve quieter, more efficient flight — the same principle is applied to an engineered aerofoil.
 
 ![Bird wing vs aerofoil](images/intro.png)
+
 *Bird feather porosity compared to a conventional aerofoil — the biological inspiration for this work.*
 
 Porosity is modelled via Darcy's law as a momentum source term in the incompressible Navier–Stokes equations, implemented in ANSYS Fluent on a NACA 0012 geometry.
 
 ![Computational domain and boundary conditions](images/aerofoil.png)
+
 *C-type computational domain with boundary conditions. Inlet velocity U = 1 m/s; pressure outlet on the right.*
 
 ---
@@ -17,6 +19,7 @@ Porosity is modelled via Darcy's law as a momentum source term in the incompress
 ### Lift Coefficient vs Angle of Attack
 
 ![CL vs AOA for porous aerofoil at three Reynolds numbers](images/cl_re.png)
+
 *Lift coefficient increases significantly with Reynolds number. At Re = 20,000 the porous aerofoil shows the steepest lift curve, suggesting an optimal operating regime.*
 
 | Re | AOA Range | CL Increase vs Solid |
